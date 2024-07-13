@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  text-align: center;
+  background: linear-gradient(147deg, #f6b323 0%, #f23b26 74%);
+}
+
+.navbar{
+  background-color: rgb(92, 24, 24);
+  width: 100%;
+  border-radius: 2px;
+  border-style: none;
+}
+.navbar-brand.toplogo a{
+  padding: 5px ;
+  height: 10px;
+  width: 10px;
+}
+.navbar a{
+  color: rgb(255, 253,253);
+  padding: 20px 10px 2px 10px;
+  text-decoration: none;
+  text-align: left;
+  font-size: 1.2rem;
+  cursor: pointer;
+  align-content: left;
+  font-size: large;
+ float: left;
+}
+.containeraaa{
+  display: inline;
+  position: absolute;
+  
+}
+.content{
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  background-color: rgb(19, 41, 41);
+  text-align: left;
+  min-width: 100px;
+  display: none;
+  }
+  .content a{
+    display: inline-block;
+  } 
+    
+
+
+
+
+.container{
+
+  display:flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+}
+.container h1 {
+  font-size: 19px;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px;
+ }
+ .card{
+  position: relative;
+  background-color: azure;
+  max-width: 325px;
+  width: 325px;
+  height: auto;
+  margin: 25px;
+  box-shadow: 0 5px 25px rgb(1 1 1 /20%);
+  border-radius: 10px;
+  overflow: hidden;
+ }
+ 
+ .card-image img{
+  max-width: 100%;
+
+  height: auto
+ }
+ .card-info{
+  position: relative;
+  color: black;
+  padding: 10px 20px 20px;
+ }
+
+/* download link design keno korte pari na... */
+
+
+ ::selection {
+  color: #fff;
+  background: #f23b26;
+}
+.pagination {
+  margin: 25px 0 15px 0;
+  
+
+}
+.pagination,
+.pagination li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;}
+  .pagination li {
+    background: #f23b26;
+    list-style: none;
+  }
+  .pagination li a {
+    text-decoration: none;
+    color: #fdfdfd;
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+    padding-top: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-right-width: 0px;
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.35);
+  }
+  .pagination li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-top-color: rgba(0, 0, 0, 0.35);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+  }
+  .pagination li a:focus,
+.pagination li a:active {
+  padding-top: 4px;
+  border-left-width: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0px 2px 1px 0px rgba(0, 0, 0, 0.25);
+}
+.pagination li.icon a {
+  min-width: 120px;
+}
+.pagination li:first-child span {
+  padding-right: 8px;
+}
+.pagination li:last-child span {
+  padding-left: 8px;
+}
+
+  
+/* akam bujsos*/
+.spinner {
+  background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));
+  width: 100px;
+  height: 100px;
+  animation: spinning82341 1.7s linear infinite;
+  text-align: center;
+  border-radius: 50px;
+  filter: blur(1px);
+  box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);
+}
+
+.spinner1 {
+  background-color: rgb(36, 36, 36);
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  filter: blur(10px);
+}
+
+@keyframes spinning82341 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+ 
+
+
+ 
